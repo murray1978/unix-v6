@@ -1,0 +1,64 @@
+List of Unix *.S files (PDP11/x)
+
+Kernel/Bootstrap
+sys/conf/data.s
+sys/conf/m40.s
+sys/conf/m45.s
+
+Assembler
+source/as/as11.s -> as29.s
+
+C Compiler
+source/c/c0t.s
+source/c/c1t.s
+source/c/table.s
+
+Fortran
+source/fort all in *.s
+
+IO Library
+source/iolib/dummy.s
+source/iolib/unprnt.s
+
+M6 - Macro assembler
+source/m6 all C
+
+mdec - Machine decleration, boot and disc drivers
+source/mdec all *.s
+
+Rat, rationl forth
+source/rat all *.c/*.h
+
+/usr/bin commands
+source/s1 mix *.s *.c
+
+/bin
+source/s2 mix *.s *.c
+
+liba
+source/s3 all *.s
+
+libc
+source/s4 mix *.s *.c crt0.s
+
+libc 2
+source/s5 mix *.s *.c
+
+?
+source/s7 mix *.s *.c
+
+libs
+source/sallc *.s
+
+sno
+source/sni *.c
+
+tmgl
+source/tmgl *.s
+
+yacc
+source/yacc/source *.c
+source/yacc/lib	*.c
+
+
+
